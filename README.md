@@ -1,4 +1,4 @@
-# 100-days-of-code (In Progress)
+# 100 Days of Code (In Progress)
  Repo that contains optimised solution to some coding challenges.
  
  ## Index
