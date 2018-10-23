@@ -2,8 +2,6 @@ import java.math.BigInteger;
 
 public class Main {
 
-
-
     static public BigInteger [][] matrixMultiplication(BigInteger arr1[][], BigInteger arr2[][]){
         BigInteger a00 =  arr1[0][0].multiply(arr2[0][0]).add(arr1[0][1].multiply(arr2[1][0]));
         BigInteger a01 =  arr1[0][0].multiply(arr2[0][1]).add(arr1[0][1].multiply(arr2[1][1]));
