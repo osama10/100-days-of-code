@@ -11,7 +11,7 @@ public class Solution {
 
         return result;
     }
-    static int [] getRotateArray(int [] A, int K){
+    static int [] getRotatedArray(int [] A, int K){
         int [] result ;
         if(A.length == K){
             result = A;
@@ -28,7 +28,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int [] arr = new int[] {3,8,9,7,6};
-        int [] ans = getRotateArray(arr, 3);
+        int [] ans = getRotatedArray(arr, 3);
         for (int item : ans) {
             System.out.print(item);
         }
